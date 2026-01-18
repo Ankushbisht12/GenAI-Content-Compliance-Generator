@@ -39,6 +39,7 @@ This project uses **Retrieval-Augmented Generation (RAG)** with a **local LLaMA-
 
 ## 📁 Project Structure
 
+```
 GenAI-Content-Compliance-Generator/
 │
 ├── backend/
@@ -59,6 +60,7 @@ GenAI-Content-Compliance-Generator/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
 ---
 
