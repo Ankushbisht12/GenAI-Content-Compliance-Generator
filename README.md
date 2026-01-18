@@ -21,6 +21,28 @@ This project uses **Retrieval-Augmented Generation (RAG)** with a **local LLaMA-
 
 ---
 
+### 🔄 Architecture Flow
+
+```
+User Input
+   ↓
+Streamlit Frontend
+   ↓
+FastAPI Backend
+   ↓
+RAG Pipeline (FAISS + Embeddings)
+   ↓
+Relevant Laws & Policies Retrieved
+   ↓
+LLaMA-3 (Local via Ollama)
+   ↓
+Compliant Content + Applied Policies
+   ↓
+Analytics Dashboard
+```
+
+---
+
 ## 🖥️ Tech Stack
 
 ### 🔹 Backend
