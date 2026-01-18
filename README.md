@@ -21,25 +21,6 @@ This project uses **Retrieval-Augmented Generation (RAG)** with a **local LLaMA-
 
 ---
 
-## 🧠 System Architecture
--User Input
--↓
--Streamlit Frontend
--↓
--FastAPI Backend
--↓
--RAG Pipeline (FAISS + Embeddings)
--↓
--Relevant Laws & Policies Retrieved
--↓
--LLaMA-3 (Local via Ollama)
--↓
--Compliant Content + Applied Policies
--↓
--Analytics Dashboard
-
----
-
 ## 🖥️ Tech Stack
 
 ### 🔹 Backend
@@ -61,23 +42,23 @@ This project uses **Retrieval-Augmented Generation (RAG)** with a **local LLaMA-
 GenAI-Content-Compliance-Generator/
 │
 ├── backend/
-│ ├── api.py
-│ ├── compliance_checker.py
-│ ├── rag_pipeline.py
+│   ├── api.py
+│   ├── compliance_checker.py
+│   └── rag_pipeline.py
 │
 ├── frontend/
-│ ├── app.py
-│ └── assets/
-│ ├── bg.png
-│ └── logo.png
+│   ├── app.py
+│   └── assets/
+│       ├── bg.png
+│       └── logo.png
 │
 ├── data/
-│ └── policies/
-│ └── policies.json
+│   └── policies/
+│       └── policies.json
 │
 ├── requirements.txt
 ├── README.md
-├── .gitignore
+└── .gitignore
 
 ---
 
