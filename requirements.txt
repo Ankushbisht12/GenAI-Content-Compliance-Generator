@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+streamlit
+langchain
+langchain-community
+langchain-core
+sentence-transformers
+faiss-cpu
+pandas
+matplotlib
+requests
+ollama
+pydantic

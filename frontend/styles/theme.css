@@ -1,0 +1,25 @@
+/* Animated AI Gradient Background */
+body {
+    background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364);
+    background-size: 400% 400%;
+    animation: gradientBG 12s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Main Container Styling */
+.block-container {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 18px;
+    padding: 2rem;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+}
+
+/* Buttons */
+button {
+    border-radius: 8px !important;
+}
